@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 p-3 bg-secondary my-4" style="display:flex">
+            <div class="bilgi px-4">
+                <input type="text" id="isim" class="form-control" placeholder="İsim Soyisim Giriniz">
+            </div>
+            <div class="bilgi px-4">
+                <input type="text" id="telefon" class="form-control" placeholder="Telefon">
+            </div>
+            <div class="bilgi px-4">
+                <select name="cinsiyet" id="cinsiyet" class="form-control">
+                    <option value="erkek">Erkek</option>
+                    <option value="kadin">Kadın</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="otobus">
+                <div class="sofor">
+                    <div class="soforalan">
+                        <p>
+                            <img src="direksiyon.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="sira">
+                    <div class="iki koltuk dolukadin" onclick="sec(this)" ondblclick="sec2(this)"  >
+                        <div class="k"><p>1</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)" >
+                        <div class="k"><p>2</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>3</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>4</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>5</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>6</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>7</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>8</p></div>
+                    </div>
+
+                    <div class="bir koltuk doluerkek" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>9</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>10</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>11</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>12</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>13</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>14</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>15</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>16</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>17</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>18</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="kapi">
+                      
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>19</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>20</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>21</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>22</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>23</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>24</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>25</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>26</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>27</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>28</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>29</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>30</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>31</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>32</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>33</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>34</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>35</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>36</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>37</p></div>
+                    </div>
+                </div>
+
+                <div class="sira">
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>38</p></div>
+                    </div>
+                    <div class="iki koltuk" onclick="sec(this)" ondblclick="sec2(this)">
+                        <div class="k"><p>39</p></div>
+                    </div>
+
+                    <div class="bir koltuk" onclick="sec(this)" ondblclick="sec2(this)" onclick="sec(this)">
+                        <div class="k"><p>40</p></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
